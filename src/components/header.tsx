@@ -8,7 +8,7 @@ export default function Header() {
     <div className="absolute top-0 left-0 w-full  z-10">
       <div className="flex flex-row items-center justify-between  py-12 container mx-auto">
         <Link href="/" className="text-3xl font-bold text-white">
-          Home
+          Miduo
         </Link>
         <div className="text-xl text-white space-x-4 font-bold" >
           <Link href="/about" className={pathname === "/about" ? "text-purple-900" : "text-white"}>About</Link>
